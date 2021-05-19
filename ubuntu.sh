@@ -99,7 +99,7 @@ echo "/usr/sbin/nologin" >> /etc/shells
 rm -f /root/dropbear-2020.80.tar.bz2
 rm -rf /root/dropbear-2020.80
 cd
-sudo apt -y install squid
+sudo apt -y install squid3
 wget -O /etc/squid/squid.conf "https://raw.githubusercontent.com/nuubiecoding/kooookzxzl/main/squid.conf"
 sed -i $MYIP2 /etc/squid/squid.conf
 sudo apt -y install vnstat
